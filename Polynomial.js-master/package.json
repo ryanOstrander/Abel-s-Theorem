@@ -1,0 +1,44 @@
+{
+    "name": "polynomial",
+    "title": "polynomial.js",
+    "version": "1.4.3",
+    "homepage": "https://github.com/infusion/Polynomial.js",
+    "bugs": "https://github.com/infusion/Polynomial.js/issues",
+    "description": "A polynomial library",
+    "keywords": [
+        "math",
+        "poly",
+        "polynomial",
+        "number",
+        "complex",
+        "rational",
+        "parser"
+    ],
+    "author": "Robert Eisele <robert@xarg.org> (http://www.xarg.org/)",
+    "main": "polynomial",
+    "private": false,
+    "readmeFilename": "README.md",
+    "directories": {
+        "example": "examples"
+    },
+    "license": "MIT OR GPL-2.0",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/infusion/Polynomial.js.git"
+    },
+    "engines": {
+        "node": "*"
+    },
+    "scripts": {
+        "test": "mocha tests/*.js"
+    },
+    "devDependencies": {
+        "mocha": "*"
+    },
+    "dependencies": {
+        "fraction.js": "*",
+        "complex.js": "*",
+        "quaternion": "*",
+        "big-integer": "*"
+    }
+}
